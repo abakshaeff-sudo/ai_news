@@ -32,3 +32,8 @@ jobs:
           TRANSLATE_PROVIDER: ${{ secrets.TRANSLATE_PROVIDER }}   # 'libre' or 'deepl'
           TRANSLATE_API_URL: ${{ secrets.TRANSLATE_API_URL }}     # optional for libre
           TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}     # optional
+                    DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}             # optional if using DeepL
+          MAX_ITEMS: '7'
+        run: |
+          python main.py
+
