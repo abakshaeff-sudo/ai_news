@@ -5,3 +5,10 @@ python-dateutil
 beautifulsoup4
 lxml
 sqlite3
+requests
+feedparser
+python-telegram-bot==20.3
+python-dateutil
+beautifulsoup4
+lxml
+langdetect
